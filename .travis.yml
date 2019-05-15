@@ -1,11 +1,10 @@
 language: python
-
 script:
   - echo "haha"
-
 deploy:
   provider: releases
-  api_key: 94a48748c192af0f663dac46cc41491c0bd137c4
+  api_key:
+    secure: AjRVNE9sZvyEBMgH+Umw5ZJ/SVmj6c2nSv5MthCdaHLFYY+x+YL1oFeIBYzBKXIG8sSVbHSLhpLnyAGxM9ckDmVUPausSMssunX7cmR9SlNsAQYNMr0CrpP4efDiRWLkF3pwy1Bnklx9JE2MoOboCisylmEfrBG3nxsfZ5nY+aXIZMtJ1ejQKxBfuMKztLODv9Svdyd335IZ/WfsYtfrjvmNI9zi72R2IUMLUVSnWyRoKKQOAGXACPeVoKh9RaEa0ctnWGjKDEpMox0jFlE6Z9//OkSoPFnRqo/a05c5ZF3CiXgRg4xsTiLQ5qHwypLcIKY+U4jKPEVgV8ZMKNZhTD8ENUKwQcqXDqxMm+o2Ba1zhNKr4diYB1zUmGnbz1f2nRAFnYiU+t1SnEU7oJ3WdoRh/LMoA+tPOmhs2hAgr2k1IMAtg3TUHNHWeIMzpMYxLrqes5IHCHr7ZLoAu3/e7LtL59qAe0NUcogQ3/C0IVKc3PZb9dA8OpQCNadT+/9M61lLkb5eRwO8sydE8hirotFYNjCmQur7CKHWSOElqekpuswiw4M6ukFZpG1M5QvU7hWG+vR1tiMlGeR4rMhQzd7ClGu05OE/UOyKFPE5xVYfbdzJRIv1wmLytkcyT/BUO7SpI5llVi+l/Odj0O0VM84CmRpgWTxWMOsPmfwKes8=
   file: Python-2.7.13.tgz
   skip_cleanup: true
   on:
