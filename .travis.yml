@@ -1,13 +1,12 @@
 language: python
 
 script:
-  - sh build.sh
+  - echo "haha"
 
 deploy:
   provider: releases
-  api_key:
-    secure: 94a48748c192af0f663dac46cc41491c0bd137c4
-  file: python-2.7-ucs4.zip
+  github_token: 94a48748c192af0f663dac46cc41491c0bd137c4
+  file: Python-2.7.13.tgz
   skip_cleanup: true
   on:
     tags: true
