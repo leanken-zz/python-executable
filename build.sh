@@ -42,4 +42,4 @@ if [ -f ${work_root}/python-2.7-ucs4.zip ]; then
     rm -rf ${work_root}/python-2.7-ucs4.zip
 fi
 cd ${work_root}
-zip -r ${work_root}/python-2.7-ucs4.zip python-2.7-ucs4
+zip -r -q ${work_root}/python-2.7-ucs4.zip python-2.7-ucs4
