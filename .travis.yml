@@ -1,6 +1,6 @@
 language: python
 script:
-- echo "haha"
+  - echo "haha"
 deploy:
   provider: releases
   api_key:
