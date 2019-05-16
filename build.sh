@@ -35,7 +35,7 @@ fi
 ${work_root}/python-2.7-ucs4/bin/python ${work_root}/get-pip.py
 
 # 1.4 install requirements
-${work_root}/python-2.7-ucs4/bin/pip install -r ${requirements}
+${work_root}/python-2.7-ucs4/bin/pip install -r ${requirements} -i https://mirrors.aliyun.com/pypi/simple
 
 # 1.5 make python zip
 if [ -f ${work_root}/python-2.7-ucs4.zip ]; then

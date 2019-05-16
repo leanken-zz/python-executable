@@ -20,6 +20,5 @@ s3transfer
 scipy           
 setuptools      
 six             
-smart
 urllib3         
 wheel           
